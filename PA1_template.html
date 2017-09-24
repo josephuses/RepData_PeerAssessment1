@@ -240,6 +240,7 @@ median_diff &lt;- imputed_median - median</code></pre>
   summarise(
     steps = mean(steps)
   )</code></pre>
+<p>Below is the panel plot.</p>
 <pre class="r"><code>ggplot(day_of_week, aes(interval, steps)) + 
   geom_line() + 
   facet_wrap(~weekday_or_weekend, nrow = 2) +

@@ -199,6 +199,7 @@ day_of_week <- imputed_data %>%
   )
 ```
 
+Below is the panel plot. 
 
 
 ```r
