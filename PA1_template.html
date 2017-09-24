@@ -192,7 +192,7 @@ ggplot(data=interval_steps, aes(x=interval, y=steps)) +
 <pre class="r"><code># Calculate and report the total number of missing values 
 # in the dataset (i.e. the total number of rows with `NA`s)
 missing &lt;- !complete.cases(data)</code></pre>
-<p>The total number of missing 2304.</p>
+<p>The total number of missing is 2304.</p>
 <p>I used mean as values for imputing the number of steps for missing values. To impute the missing values in the data, firstly, I matched the averages by interval across dates with the intervals in the original data.</p>
 <pre class="r"><code># impute missing steps with interval averages across days
 imputed_data &lt;- data %&gt;%

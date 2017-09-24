@@ -109,7 +109,7 @@ On average across all the days in the dataset, the 5-minute interval that contai
 missing <- !complete.cases(data)
 ```
 
-The total number of missing 2304.
+The total number of missing is 2304.
 
 I used mean as values for imputing the number of steps for missing values. To impute the missing values in the data, firstly, I matched the averages by interval across dates with the intervals in the original data.
 
